@@ -8,8 +8,8 @@
 int main(void)
 {
 int first;
-int ten;
-int hundred;
+int second;
+int third;
 
 for (third = '0'; third <= '9'; third++)
 {
