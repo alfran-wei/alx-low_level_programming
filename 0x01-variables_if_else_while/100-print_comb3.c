@@ -5,7 +5,7 @@
  *but digits must be differents , no repeat (example 11),
  *01 and 10 represent same thing
  *
- *return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
