@@ -14,7 +14,14 @@ long b = 2;
 
 for (counter = 1; counter <= (countto / 2); counter++)
 {
-printf("%li, %li, ", a, b);
+if (counter == (countto / 2))
+{
+printf("%li, %li", a, b);
+}
+else
+{
+printf("%li, %li,", a, b);
+}
 a += b;
 b += a;
 }
